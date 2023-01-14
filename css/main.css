@@ -1,16 +1,37 @@
 :root{
     --HEADER-H1-FONT: 'Cinzel', serif; 
+    
     --MAIN-FONT-INTER: 'Inter', sans-serif;
+    
     --MAIN-FONT-ROMAN: "Times New Roman", Times, serif;
+    
+    --FONT-COLOR: white;
 }
 
+body {
+    background-color: rgb(35, 35, 35);
+    padding: 25px;
+}
 
 /* HEADER CSS CODE */
 
+h1 {
+    font-family: var(--HEADER-H1-FONT);
+    color: var(--FONT-COLOR);
+    font-size: 12px;
+}
 
+#headercontainer1 {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 /* MAIN CSS CODE */
 
+ol {
+    color: var(--FONT-COLOR);
+}
 
-
-/* FOOTER CSS CODE */
