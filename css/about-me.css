@@ -72,3 +72,25 @@ li {
     list-style-type: none;
 }
 
+
+/* MAIN SUDO CLASSES */
+
+a:link {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb259;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffb259;
+    text-decoration: none;
+}

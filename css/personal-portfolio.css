@@ -12,6 +12,7 @@ body {
     background-color: rgb(35, 35, 35);
     padding: 75px 50px 0px 70px;
     margin: 0px;
+    height: 150vh;
 }
 
 /* HEADER CSS CODE */
@@ -36,10 +37,129 @@ h1 {
 
 /* MAIN CLASSES + ID'S */
 
+#maincontainer1 {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
+.interfont {
+    font-family: var(--MAIN-FONT-INTER);
+}
 
+.romanfont {
+    font-family: var(--MAIN-FONT-ROMAN);
+    font-weight: 100;
+}
+
+#html-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#css-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#js-logo {
+    height: 50px;
+    width: 75px;
+}
+
+#react-logo {
+    height: 50px;
+    width: 60px;
+}
+
+#typescript-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#python-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#ruby-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#git-logo{ 
+    height: 50px;
+    width: 50px;
+}
+
+#zsh-logo {
+    height: 50px;
+    width: 70px;
+}
+
+#cyber-security-logo {
+    height: 50px;
+    width: 50px;
+}
+
+#github-username {
+    margin-left: 300px;
+}
 
 /* MAIN CODE */
 
+main {
+    color: var(--FONT-COLOR);
+}
 
+table {
+    font-family: var(--HEADER-H1-FONT);
+}
 
+table, th, td {
+    border: 1px solid white;
+    width: 1000px;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+li {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px 0px 50px 0px;
+}
+
+/* MAIN SUDO CLASSES */
+
+a:link {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb259;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffb259;
+    text-decoration: none;
+}
