@@ -75,10 +75,12 @@ img {
     width: 800px;
 }
 
+
 /* MAIN SUDO CLASSES */
 
 a:link {
     text-decoration: none;
+    color: var(--FONT-COLOR);
 }
 
 a:visited {
