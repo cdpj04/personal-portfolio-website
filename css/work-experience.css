@@ -18,7 +18,19 @@ body {
 
 /* HEADER CSS CODE */
 
+h1 {
+    font-family: var(--HEADER-H1-FONT);
+    color: var(--FONT-COLOR);
+    font-size: 12px;
+}
 
+#headercontainer1 {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 /* MAIN CSS CODE */
