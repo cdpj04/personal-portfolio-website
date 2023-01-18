@@ -37,5 +37,75 @@ h1 {
 
 /* MAIN CLASSES + ID'S */
 
+.interfont {
+    font-family: var(--MAIN-FONT-INTER);
+}
+
+.romanfont {
+    font-family: var(--MAIN-FONT-ROMAN);
+    font-weight: 100;
+}
+
+.cinzelfont {
+    font-family: var(--HEADER-H1-FONT);
+}
+
+#maincontainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+/* MAIN CSS CODE */
+
+main {
+    color: var(--FONT-COLOR);
+}
+
+table, th, td {
+    border: 1px solid white;
+    width: 1000px;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: var(--FONT-COLOR);
+    color: black;
+}
 
 
+p {
+    font-size: 25px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+/* MAIN SUDO CLASSES */
+
+a:link {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb259;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffb259;
+    text-decoration: none;
+}
