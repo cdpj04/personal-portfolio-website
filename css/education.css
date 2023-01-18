@@ -141,7 +141,7 @@ h1 {
     align-items: center;
 }
 
-#logo-sizing1 {
+.logo-sizing1 {
     height: 300px;
     width: 500px;
 }
@@ -151,12 +151,12 @@ h1 {
     width: 400px;
 }
 
-#logo-sizing3 {
+.logo-sizing3 {
     height: 300px;
     width: 300px;
 }
 
-#figcaption-sizing1 {
+.figcaption-sizing1 {
     padding-left: 75px;
 }
 
@@ -164,9 +164,42 @@ h1 {
     padding-left: 65px;
 }
 
-#figcaption-sizing3 {
+.figcaption-sizing3 {
     padding-right: 30px;
 }
+
+#github-username {
+    margin-left: 300px;
+}
+
+
+/* MAIN SECTION 4 CODE */
+
+#maincontainer4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-logo-sizing {
+    height: 50px;
+    width: 50px;
+}
+
+.language-logo-sizing2 {
+    height: 50px;
+    width: 75px;
+}
+
+.language-logo-sizing3 {
+    height: 50px;
+    width: 60px;
+}
+
+.language-logo-sizing4 {
+    height: 50px;
+    width: 70px;
+}
+
 
 /* MAIN CODE */
 
@@ -196,6 +229,17 @@ th {
 p {
     font-size: 25px;
 }
+
+li {
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+ul {
+    margin: 0px 0px 50px 0px;
+}
+
+
 /* MAIN SUDO CLASSES */
 
 a:link {

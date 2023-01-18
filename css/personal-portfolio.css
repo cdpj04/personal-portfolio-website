@@ -54,59 +54,6 @@ h1 {
     align-items: flex-start;
 }
 
-#html-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#css-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#js-logo {
-    height: 50px;
-    width: 75px;
-}
-
-#react-logo {
-    height: 50px;
-    width: 60px;
-}
-
-#typescript-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#python-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#ruby-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#git-logo{ 
-    height: 50px;
-    width: 50px;
-}
-
-#zsh-logo {
-    height: 50px;
-    width: 70px;
-}
-
-#cyber-security-logo {
-    height: 50px;
-    width: 50px;
-}
-
-#github-username {
-    margin-left: 300px;
-}
 
 /* MAIN CODE */
 
@@ -138,14 +85,6 @@ p {
     margin-bottom: 10px;
 }
 
-li {
-    margin-top: 35px;
-    font-size: 25px;
-}
-
-ul {
-    margin: 0px 0px 50px 0px;
-}
 
 /* MAIN SUDO CLASSES */
 
