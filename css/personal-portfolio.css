@@ -37,14 +37,6 @@ h1 {
 
 /* MAIN CLASSES + ID'S */
 
-#maincontainer1 {
-    height: 1100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-}
-
 .interfont {
     font-family: var(--MAIN-FONT-INTER);
 }
@@ -52,6 +44,14 @@ h1 {
 .romanfont {
     font-family: var(--MAIN-FONT-ROMAN);
     font-weight: 100;
+}
+
+#maincontainer1 {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #html-logo {
@@ -126,6 +126,11 @@ table, th, td {
 
 th, td {
     padding: 10px;
+}
+
+th {
+    background-color: var(--FONT-COLOR);
+    color: black;
 }
 
 p {

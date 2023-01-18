@@ -33,8 +33,187 @@ h1 {
 }
 
 
-
 /* MAIN CSS CODE */
 
 
+/* MAIN CLASSES + ID'S */
 
+.interfont {
+    font-family: var(--MAIN-FONT-INTER);
+}
+
+.romanfont {
+    font-family: var(--MAIN-FONT-ROMAN);
+    font-weight: 100;
+}
+
+.cinzelfont {
+    font-family: var(--HEADER-H1-FONT);
+}
+
+
+/* MAIN SECTION 1 CODE */
+
+#maincontainer1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+    height: 1100px;
+}
+
+#mainitem1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#mainitem1 img{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+}
+
+#mainitem1 figcaption{
+    margin-left: 120px;
+}
+
+
+/* MAIN SECTION 2 CODE */
+
+.certifcate {
+    height: 500px;
+    width: 650px;
+}
+
+#maincontainer2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    height: 1400px;
+}
+
+#mainitem2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+#mainitem3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* MAIN SECTION 3 CODE */
+
+#maincontainer3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+}
+
+#maincontainer3 figcaption{
+    margin-left: 100px;
+}
+
+#mainitem4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#mainitem5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo-sizing1 {
+    height: 300px;
+    width: 500px;
+}
+
+#logo-sizing2 {
+    height: 300px;
+    width: 400px;
+}
+
+#logo-sizing3 {
+    height: 300px;
+    width: 300px;
+}
+
+#figcaption-sizing1 {
+    padding-left: 75px;
+}
+
+#figcaption-sizing2 {
+    padding-left: 65px;
+}
+
+#figcaption-sizing3 {
+    padding-right: 30px;
+}
+
+/* MAIN CODE */
+
+main {
+    color: var(--FONT-COLOR);
+}
+
+table {
+    font-family: var(--HEADER-H1-FONT);
+}
+
+table, th, td {
+    border: 1px solid white;
+    width: 1000px;
+    font-size: 15px;
+}
+
+th, td {
+    padding: 10px;
+}
+
+th {
+    background-color: var(--FONT-COLOR);
+    color: black;
+}
+
+p {
+    font-size: 25px;
+}
+/* MAIN SUDO CLASSES */
+
+a:link {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb259;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffb259;
+    text-decoration: none;
+}
