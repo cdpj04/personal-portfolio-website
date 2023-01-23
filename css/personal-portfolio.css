@@ -51,7 +51,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
@@ -83,6 +83,10 @@ th {
 p {
     font-size: 25px;
     margin-bottom: 10px;
+}
+
+span {
+    font-family: var(--HEADER-H1-FONT);
 }
 
 
