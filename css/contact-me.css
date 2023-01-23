@@ -18,10 +18,89 @@ body {
 
 /* HEADER CSS CODE */
 
+h1 {
+    font-family: var(--HEADER-H1-FONT);
+    color: var(--FONT-COLOR);
+    font-size: 12px;
+}
+
+#headercontainer1 {
+    margin-left: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 
 
 /* MAIN CSS CODE */
 
+/* MAIN CLASSES + ID'S */
+
+#maincontainer1 {
+    height: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
+
+.mainitem1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.interfont {
+    font-family: var(--MAIN-FONT-INTER);
+}
+
+.romanfont {
+    font-family: var(--MAIN-FONT-ROMAN);
+    font-weight: 100;
+}
+
+.cinzelfont {
+    font-family: var(--HEADER-H1-FONT);
+}
 
 
+/* MAIN CODE */
+
+main {
+    color: var(--FONT-COLOR);
+}
+
+p {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 55px;
+}
+
+
+/* MAIN SUDO CLASSES */
+
+a:link {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #FFDE59;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffb259;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #ffb259;
+    text-decoration: none;
+}
